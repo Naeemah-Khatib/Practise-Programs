@@ -11,6 +11,16 @@ class Solution {
         set.add('A'); set.add('E');
         set.add('I'); set.add('O');
         set.add('U'); 
+        
+        /* 
+        static boolean isVowel(char c) {
+        return (c == 'a' || c == 'A' || c == 'e'
+                || c == 'E' || c == 'i' || c == 'I'
+                || c == 'o' || c == 'O' || c == 'u'
+                || c == 'U');
+        }
+        */
+        
         char[] c = s.toCharArray();
         
         while(l<r){
