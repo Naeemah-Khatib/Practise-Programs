@@ -31,3 +31,27 @@ public class Main
 		}
 	}
 }
+
+
+//Without changing order
+
+private static void firsteven(int[] arr) {
+        int i=-1, j=0;
+        for(j=0;j<arr.length;j++){
+            if(arr[j]%2==0){
+                i++;
+                int temp = arr[j];
+                int k=j-i, t=j;
+                for(int x=0;x<k;x++){    
+                    arr[t] = arr[t-1];
+                    t--;
+                }
+
+                arr[i] = temp;
+                System.out.println(j+"--" + Arrays.toString(arr));
+            }
+            
+            
+        }
+        System.out.println(Arrays.toString(arr));
+    }
