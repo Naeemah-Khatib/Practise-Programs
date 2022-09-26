@@ -2,6 +2,7 @@ import java.util.*;
 public class Main
 {
      public static void main(String[] args) {
+	     
 		Scanner s = new Scanner(System.in);
 		String num = s.next();
 		int sum = 0, j = 0;
@@ -10,5 +11,6 @@ public class Main
 		    j++;
 		}
 		System.out.println(sum);
+	     
 	}
 }
